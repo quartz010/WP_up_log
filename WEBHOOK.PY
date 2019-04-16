@@ -9,7 +9,7 @@ import logging
  
 logging.basicConfig(level=logging.INFO,
                     filename='./log.out',
-                    filemode='w',
+                    filemode='a',
                     format='%(asctime)s - %(filename)s[line:%(lineno)d] - %(levelname)s: %(message)s')
 
 def newPost(environ):
@@ -19,7 +19,7 @@ def newPost(environ):
         os.system('git add .')
         os.system('git commit -m "merge"')
         os.system('git push origin master')
-        logging.info('git pull finish')
+        logging.info('git push finish :new')
     
 
 def update(environ):
@@ -28,7 +28,7 @@ def update(environ):
         os.system('git add .')
         os.system('git commit -m "%s"' % time.asctime(time.localtime(time.time())))
         os.system('git push origin master')
-        logging.info('git pull finish')
+        logging.info('git push finish :update')
 
 route_map = {
     '/new': newPost,
