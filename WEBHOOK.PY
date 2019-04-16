@@ -18,7 +18,7 @@ def newPost(environ):
         logging.info('new post')
         os.system('git add .')
         os.system('git commit -m "merge"')
-        os.system('git pull origin master')
+        os.system('git push origin master')
         logging.info('git pull finish')
     
 
@@ -27,7 +27,7 @@ def update(environ):
         logging.info('post update')
         os.system('git add .')
         os.system('git commit -m "%s"' % time.asctime(time.localtime(time.time())))
-        os.system('git pull origin master')
+        os.system('git push origin master')
         logging.info('git pull finish')
 
 route_map = {

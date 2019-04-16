@@ -3,3 +3,5 @@
 2019-04-16 22:50:52,955 - WEBHOOK.PY[line:18] - INFO: new post
 2019-04-16 22:50:57,415 - WEBHOOK.PY[line:22] - INFO: git pull finish
 2019-04-16 22:50:58,883 - WEBHOOK.PY[line:27] - INFO: post update
+2019-04-16 22:51:02,109 - WEBHOOK.PY[line:31] - INFO: git pull finish
+2019-04-16 22:54:22,035 - WEBHOOK.PY[line:27] - INFO: post update
