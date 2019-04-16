@@ -15,7 +15,7 @@ logging.basicConfig(level=logging.INFO,
 def newPost(environ):
     if environ['REQUEST_METHOD'] == "POST":
         print(environ)
-
+        logging.info('new post')
         os.system('git add .')
         os.system('git commit -m "merge"')
         os.system('git pull origin master')
@@ -23,6 +23,7 @@ def newPost(environ):
     
 
 def update(environ):
+    logging.info('post update')
     os.system('git add .')
     os.system('git commit -m "%s"' % time.asctime(time.localtime(time.time())))
     os.system('git pull origin master')
