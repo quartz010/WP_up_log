@@ -10,3 +10,23 @@ removed from your working tree are ignored with this version of Git.
 
 Run 'git status' to check the paths you removed from your working tree.
 
+[master fb6e1ed] Tue Apr 16 22:50:45 2019
+ 2 files changed, 13 insertions(+), 27 deletions(-)
+ rewrite log.out (99%)
+ create mode 100644 nohup.out
+From github.com:quartz010/WP_up_log
+ * branch            master     -> FETCH_HEAD
+Already up-to-date.
+127.0.0.1 - - [16/Apr/2019 22:50:48] "POST /hook/update HTTP/1.0" 200 15
+warning: You ran 'git add' with neither '-A (--all)' or '--ignore-removal',
+whose behaviour will change in Git 2.0 with respect to paths you removed.
+Paths like '@' that are
+removed from your working tree are ignored with this version of Git.
+
+* 'git add --ignore-removal <pathspec>', which is the current default,
+  ignores paths you removed from your working tree.
+
+* 'git add --all <pathspec>' will let you also record the removals.
+
+Run 'git status' to check the paths you removed from your working tree.
+
