@@ -23,11 +23,12 @@ def newPost(environ):
     
 
 def update(environ):
-    logging.info('post update')
-    os.system('git add .')
-    os.system('git commit -m "%s"' % time.asctime(time.localtime(time.time())))
-    os.system('git pull origin master')
-    logging.info('git pull finish')
+    if environ['REQUEST_METHOD'] == "POST":
+        logging.info('post update')
+        os.system('git add .')
+        os.system('git commit -m "%s"' % time.asctime(time.localtime(time.time())))
+        os.system('git pull origin master')
+        logging.info('git pull finish')
 
 route_map = {
     '/new': newPost,
