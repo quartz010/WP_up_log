@@ -165,3 +165,20 @@ removed from your working tree are ignored with this version of Git.
 
 Run 'git status' to check the paths you removed from your working tree.
 
+[master 73a55af] Wed Apr 17 00:08:26 2019
+ 3 files changed, 24 insertions(+), 3 deletions(-)
+To git@github.com:quartz010/WP_up_log.git
+   9077481..73a55af  master -> master
+127.0.0.1 - - [17/Apr/2019 00:08:31] "POST /hook/update HTTP/1.0" 200 15
+warning: You ran 'git add' with neither '-A (--all)' or '--ignore-removal',
+whose behaviour will change in Git 2.0 with respect to paths you removed.
+Paths like '@' that are
+removed from your working tree are ignored with this version of Git.
+
+* 'git add --ignore-removal <pathspec>', which is the current default,
+  ignores paths you removed from your working tree.
+
+* 'git add --all <pathspec>' will let you also record the removals.
+
+Run 'git status' to check the paths you removed from your working tree.
+
