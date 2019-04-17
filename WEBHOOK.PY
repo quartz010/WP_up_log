@@ -16,7 +16,7 @@ def newPost(environ):
     if environ['REQUEST_METHOD'] == "POST":
         print(environ)
         logging.info('new post')
-        os.system('git add .')
+        os.system('git add . -A')
         os.system('git commit -m "merge"')
         os.system('git push origin master')
         logging.info('git push finish :new')
@@ -25,7 +25,7 @@ def newPost(environ):
 def update(environ):
     if environ['REQUEST_METHOD'] == "POST":
         logging.info('post update')
-        os.system('git add .')
+        os.system('git add . -A')
         os.system('git commit -m "%s"' % time.asctime(time.localtime(time.time())))
         os.system('git push origin master')
         logging.info('git push finish :update')
