@@ -498,3 +498,11 @@ Run 'git status' to check the paths you removed from your working tree.
 To git@github.com:quartz010/WP_up_log.git
    5974a84..1c36c71  master -> master
 127.0.0.1 - - [17/Apr/2019 00:39:22] "POST /hook/update HTTP/1.0" 200 15
+[master ca3ce9c] Wed Apr 17 14:26:42 2019
+ 6 files changed, 10 insertions(+), 50 deletions(-)
+ delete mode 100644 .WEBHOOK.PY.swp
+ create mode 100644 .gitignore
+ delete mode 100644 @
+To git@github.com:quartz010/WP_up_log.git
+   1c36c71..ca3ce9c  master -> master
+127.0.0.1 - - [17/Apr/2019 14:26:47] "POST /hook/update HTTP/1.0" 200 15
