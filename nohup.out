@@ -552,3 +552,8 @@ Python/2.7.5', 'LC_CTYPE': 'en_US.utf8', 'SCRIPT_NAME': '', 'LESSOPEN': '||/usr/
 To git@github.com:quartz010/WP_up_log.git
    eebcf56..0ec41a7  master -> master
 127.0.0.1 - - [17/Apr/2019 14:47:36] "POST /hook/new HTTP/1.0" 200 15
+[master 234f4ce] Wed Apr 17 14:47:37 2019
+ 2 files changed, 7 insertions(+), 1 deletion(-)
+To git@github.com:quartz010/WP_up_log.git
+   0ec41a7..234f4ce  master -> master
+127.0.0.1 - - [17/Apr/2019 14:47:45] "POST /hook/update HTTP/1.0" 200 15
