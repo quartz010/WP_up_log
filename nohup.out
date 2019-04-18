@@ -702,3 +702,20 @@ To git@github.com:quartz010/WP_up_log.git
 To git@github.com:quartz010/WP_up_log.git
    d617afe..be8798f  master -> master
 127.0.0.1 - - [18/Apr/2019 21:51:22] "POST /hook/new HTTP/1.0" 200 15
+[master 0eef451] Thu Apr 18 21:51:22 2019
+ 2 files changed, 7 insertions(+), 1 deletion(-)
+To git@github.com:quartz010/WP_up_log.git
+   be8798f..0eef451  master -> master
+127.0.0.1 - - [18/Apr/2019 21:51:27] "POST /hook/update HTTP/1.0" 200 15
+warning: You ran 'git add' with neither '-A (--all)' or '--ignore-removal',
+whose behaviour will change in Git 2.0 with respect to paths you removed.
+Paths like '.WEBHOOK.PY.swp' that are
+removed from your working tree are ignored with this version of Git.
+
+* 'git add --ignore-removal <pathspec>', which is the current default,
+  ignores paths you removed from your working tree.
+
+* 'git add --all <pathspec>' will let you also record the removals.
+
+Run 'git status' to check the paths you removed from your working tree.
+
