@@ -683,3 +683,8 @@ To git@github.com:quartz010/WP_up_log.git
 To git@github.com:quartz010/WP_up_log.git
    f9fe9f1..e9ef880  master -> master
 127.0.0.1 - - [18/Apr/2019 21:43:42] "POST /hook/new HTTP/1.0" 200 15
+[master efd3cf9] Thu Apr 18 21:44:17 2019
+ 2 files changed, 8 insertions(+), 1 deletion(-)
+To git@github.com:quartz010/WP_up_log.git
+   e9ef880..efd3cf9  master -> master
+127.0.0.1 - - [18/Apr/2019 21:44:22] "POST /hook/update HTTP/1.0" 200 15
