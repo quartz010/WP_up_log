@@ -651,4 +651,8 @@ To git@github.com:quartz010/WP_up_log.git
 /update
 /update
 /new
-{'LS_COLORS': 'rs=0:di=01;34:ln=01;
+{'LS_COLORS': 'rs=0:di=01;34:ln=01;[master 1208537] merge
+ 2 files changed, 27 insertions(+)
+To git@github.com:quartz010/WP_up_log.git
+   8dc2575..1208537  master -> master
+127.0.0.1 - - [18/Apr/2019 21:17:48] "POST /hook/new HTTP/1.0" 200 15
