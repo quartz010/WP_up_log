@@ -1748,3 +1748,20 @@ removed from your working tree are ignored with this version of Git.
 
 Run 'git status' to check the paths you removed from your working tree.
 
+[master eb9cdb8] merge
+ 2 files changed, 21 insertions(+)
+To git@github.com:quartz010/WP_up_log.git
+   4310302..eb9cdb8  master -> master
+127.0.0.1 - - [28/Apr/2019 09:32:10] "POST /hook/new HTTP/1.0" 200 15
+warning: You ran 'git add' with neither '-A (--all)' or '--ignore-removal',
+whose behaviour will change in Git 2.0 with respect to paths you removed.
+Paths like '.WEBHOOK.PY.swp' that are
+removed from your working tree are ignored with this version of Git.
+
+* 'git add --ignore-removal <pathspec>', which is the current default,
+  ignores paths you removed from your working tree.
+
+* 'git add --all <pathspec>' will let you also record the removals.
+
+Run 'git status' to check the paths you removed from your working tree.
+
