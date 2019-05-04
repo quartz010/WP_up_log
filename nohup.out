@@ -2319,3 +2319,8 @@ removed from your working tree are ignored with this version of Git.
 
 Run 'git status' to check the paths you removed from your working tree.
 
+[master 51ba1ad] merge
+ 2 files changed, 21 insertions(+)
+To git@github.com:quartz010/WP_up_log.git
+   e41939b..51ba1ad  master -> master
+127.0.0.1 - - [04/May/2019 02:11:45] "POST /hook/new HTTP/1.0" 200 15
