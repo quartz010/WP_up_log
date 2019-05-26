@@ -437,3 +437,5 @@
 2019-05-26 00:08:21,866 - WEBHOOK.PY[line:18] - INFO: new post
 2019-05-26 00:08:30,319 - WEBHOOK.PY[line:22] - INFO: git push finish :new
 2019-05-26 20:22:03,215 - WEBHOOK.PY[line:18] - INFO: new post
+2019-05-26 20:22:09,728 - WEBHOOK.PY[line:22] - INFO: git push finish :new
+2019-05-26 20:22:09,736 - WEBHOOK.PY[line:18] - INFO: new post
